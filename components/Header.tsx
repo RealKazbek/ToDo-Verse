@@ -24,7 +24,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="fixed z-100 w-full flex items-center justify-between px-6 py-4 shadow-md bg-[var(--secondary)]">
+    <header className="fixed z-100 w-full flex items-center justify-between px-6 py-4 shadow-md bg-[var(--secondary)]/70 backdrop-blur-md">
       {/* Логотип */}
       <div className="flex w-[300px] items-center justify-center text-3xl font-semibold">
         <Link href="/dashboard">

@@ -27,7 +27,8 @@ export default function MainHero() {
       {/* Content */}
       <div className="w-1/2 flex flex-col items-start gap-8">
         <h1 className="font-semibold text-7xl leading-tight text-[var(--secondary)]">
-          Master Your Day with TodoVerse
+          Master Your Day with Todo
+          <span className="text-[var(--destructive)]">Verse</span>
         </h1>
         <p className="text-[var(--border)]">
           Welcome to TodoVerse — a dynamic space where productivity meets

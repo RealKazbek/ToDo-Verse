@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Page = () => {
   return (
-    <div className="w-full min-h-full flex items-center">
+    <div className="w-full min-h-full flex items-center text-[var(--accent)]">
       {/* Content */}
       <div className="flex flex-col w-1/2">
         {/* Title */}

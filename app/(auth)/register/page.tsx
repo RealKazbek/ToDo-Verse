@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Page = () => {
   return (
-    <div className="w-full min-h-full flex items-center">
+    <div className="w-full min-h-full flex items-center text-[var(--accent)]">
       {/* Images */}
       <div className="w-1/2 relative h-0 pb-[40%]">
         <Image
