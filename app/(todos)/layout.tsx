@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import SideBar from "@/components/SideBar";
 
 export default function AuthLayout({
   children,
@@ -6,14 +7,13 @@ export default function AuthLayout({
   children: React.ReactNode;
 }) {
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <Header />
       <div className="flex">
-        
-        <main>
-          {children}
-        </main>
+        <SideBar />
+
+        <main className="">{children}</main>
       </div>
-    </>
+    </div>
   );
 }

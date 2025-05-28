@@ -26,7 +26,7 @@ export default function Header() {
   return (
     <header className="w-full flex items-center justify-between px-6 py-4 shadow-md bg-[var(--accent)]">
       {/* Логотип */}
-      <div className="flex items-center justify-center text-3xl font-semibold">
+      <div className="flex w-[300px] items-center justify-center text-3xl font-semibold">
         <Link href="/">
           ToDo <span className="text-[var(--destructive)]">Verse</span>
         </Link>
