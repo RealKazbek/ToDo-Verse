@@ -7,11 +7,11 @@ export default function AuthLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-[var(--accent)]">
       <Header />
       <div className="relative flex">
         <SideBar />
-        <main className="mt-19 ml-[400px]">{children}</main>
+        <main className="mt-19 ml-[400px] mr-6 w-full">{children}</main>
       </div>
     </div>
   );

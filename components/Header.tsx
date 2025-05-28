@@ -24,7 +24,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="w-full flex items-center justify-between px-6 py-4 shadow-md bg-[var(--accent)]">
+    <header className="w-full flex items-center justify-between px-6 py-4 shadow-md bg-[var(--secondary)]">
       {/* Логотип */}
       <div className="flex w-[300px] items-center justify-center text-3xl font-semibold">
         <Link href="/">
