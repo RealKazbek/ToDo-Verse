@@ -9,10 +9,9 @@ export default function AuthLayout({
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <div className="flex">
+      <div className="relative flex">
         <SideBar />
-
-        <main className="">{children}</main>
+        <main className="mt-19 ml-[400px]">{children}</main>
       </div>
     </div>
   );
