@@ -11,7 +11,7 @@ export default function AuthLayout({
       <Header />
       <div className="relative flex">
         <SideBar />
-        <main className="mt-19 ml-[400px] mr-6 w-full">{children}</main>
+        <main className="mt-37 ml-[400px] mr-6 w-full border px-4 py-2 rounded-lg shadow-md border-gray-400">{children}</main>
       </div>
     </div>
   );

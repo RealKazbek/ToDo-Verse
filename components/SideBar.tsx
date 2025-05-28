@@ -31,7 +31,7 @@ export default function SideBar() {
   ];
 
   return (
-    <div className="fixed top-38 bottom-0 left-0 w-[350px] px-6 mt-0 bg-[var(--color-foreground)] rounded-tr-lg text-white flex flex-col justify-between">
+    <div className="fixed z-100 top-38 bottom-0 left-0 w-[350px] px-6 mt-0 bg-[var(--color-foreground)] rounded-tr-lg text-white flex flex-col justify-between">
       <div className="flex flex-col gap-10">
         {/* Account */}
         <div className="flex flex-col -mt-15 items-center">
